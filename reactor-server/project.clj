@@ -1,6 +1,5 @@
-(defproject reactor-server "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0"]])
+(defproject reactor/server "0.1.0-SNAPSHOT"
+	:plugins [[lein-modules "0.3.11"]]
+	:description "FIXME: write description"
+	:dependencies [[reactor/core :version]]
+	:source-paths ["src"])
